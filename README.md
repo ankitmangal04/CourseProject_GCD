@@ -20,7 +20,8 @@ Running the analysis
 1. Change the working directory in R to the installation directory "samsung".
 2. Source the script run_analysis.R using code: source("run_analysis.R")
 
-How the script works:
+How script works:
+
 1. Reads the data ( test and train ) from the working directory
 2. Checks the dimensions of all the tables to make sure when we rbind or cbind, if makes sense
 3. Adds label names to the fields

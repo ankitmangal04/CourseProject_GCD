@@ -20,6 +20,7 @@ Running the analysis
 1. Change the working directory in R to the installation directory "samsung".
 2. Source the script run_analysis.R using code: source("run_analysis.R")
 
+
 How script works:
 
 1. Reads the data ( test and train ) from the working directory

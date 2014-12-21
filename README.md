@@ -13,8 +13,7 @@ Running analysis:
 2. Download the script run_analysis.R to that working directory.
 3. Download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, unzip it and copy the contents of the folder "UCI HAR Dataset" in the working directory.
 
-
-      Structure of the working directory now should look like:
+Structure of the working directory now should look like:
 
       working directory -->
         test (folder)

@@ -11,18 +11,13 @@ Running analysis:
 
 1. Create a directory for this project, set it as a working directory.
 2. Download the script run_analysis.R to that working directory.
-3. Download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, unzip it and copy the contents of the folder "UCI HAR Dataset" in the working directory.
+3. Download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, unzip it in the working directory. You can delete the zip file now.
 
 Structure of the working directory now should look like:
 
       working directory -->
-        test (folder)
-        train (folder)
-        run_analysis.R (file)
-        activity_labels.txt (file)
-        features.txt (file)
-        features_info.txt (file)
-        README.txt (file)
+            run_analysis.R (file)
+            getdata-projectfiles-UCI HAR Dataset (folder)      
 
 Source the script run_analysis.R using code: source("run_analysis.R")
 

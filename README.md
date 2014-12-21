@@ -4,24 +4,24 @@ CourseProject_GCD
 Course Project for Getting and Cleaning Data
 
 
-Installation steps: 
+Running analysis: 
 
 1. Create a directory for this project, set it as a working directory.
 2. Download the script run_analysis.R to that working directory.
-3. Download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the working directory and unzip it.
+3. Download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the working directory and unzip the contents of the folder "UCI HAR Dataset" in the working directory.
 
 
 Structure of the working directory should look like:
 
 working directory -->
 
-1. test (folder)
-2. train (folder)
-3. run_analysis.R (file)
-4. activity_labels.txt (file)
-5. features.txt (file)
-6. features_info.txt (file)
-7. README.txt (file)
+a. test (folder)
+b. train (folder)
+c. run_analysis.R (file)
+d. activity_labels.txt (file)
+e. features.txt (file)
+f. features_info.txt (file)
+g. README.txt (file)
 
 
 Dependencies: 

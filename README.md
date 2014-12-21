@@ -12,14 +12,21 @@ Installation steps:
 
 
 Structure of the working directory should look like:
-working directory
---> test (folder)
---> train (folder)
---> run_analysis.R (file)
---> activity_labels.txt (file)
---> features.txt (file)
---> features_info.txt (file)
---> README.txt (file)
+working directory -->
+
+test (folder)
+
+train (folder)
+
+run_analysis.R (file)
+
+activity_labels.txt (file)
+
+features.txt (file)
+
+features_info.txt (file)
+
+README.txt (file)
 
 Dependencies: 
 The script run_analysis.R depends on the library reshape2. 

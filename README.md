@@ -17,14 +17,13 @@ Running analysis:
       Structure of the working directory now should look like:
 
       working directory -->
-
-        1. test (folder)
-        2. train (folder)
-        3. run_analysis.R (file)
-        4. activity_labels.txt (file)
-        5. features.txt (file)
-        6. features_info.txt (file)
-7. README.txt (file)
+        test (folder)
+        train (folder)
+        run_analysis.R (file)
+        activity_labels.txt (file)
+        features.txt (file)
+        features_info.txt (file)
+        README.txt (file)
 
 Final step in running analysis:
 

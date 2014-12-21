@@ -9,15 +9,17 @@ Installation steps:
 1. Create a directory for this project, set it as a working directory.
 2. Download the script run_analysis.R to that working directory.
 3. Download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the working directory and unzip it.
+
+
 Structure of the working directory should look like:
 working directory
-+ test (folder)
-+ train (folder)
-+ run_analysis.R (file)
-+ activity_labels.txt (file)
-+ features.txt (file)
-+ features_info.txt (file)
-+ README.txt (file)
+--> test (folder)
+--> train (folder)
+--> run_analysis.R (file)
+--> activity_labels.txt (file)
+--> features.txt (file)
+--> features_info.txt (file)
+--> README.txt (file)
 
 Dependencies: 
 The script run_analysis.R depends on the library reshape2. 

@@ -4,7 +4,7 @@ CourseProject_GCD
 Course Project for Getting and Cleaning Data
 
 
-Installation Instructions: 
+Installation steps: 
 
 1. Create a directory for this project, name it samsung.
 2. Download the script run_analysis.R to samsung.

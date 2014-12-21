@@ -1,25 +1,24 @@
 # Read test data, labels and subjects
-# setwd("C:\\Users\\amanga1\\Downloads\\Getting and Cleaning Data\\WD\\getdata-projectfiles-UCI HAR Dataset\\UCI HAR Dataset")
 
-subject_test <- read.table("./test/subject_test.txt")
+subject_test <- read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/subject_test.txt")
 dim(subject_test)
 # 2947 X 1
-X_test <- read.table("./test/X_test.txt")
+X_test <- read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/X_test.txt")
 dim(X_test)
 # 2947 X 561
-y_test <- read.table("./test/y_test.txt")
+y_test <- read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/y_test.txt")
 dim(y_test)
 # 2947 X 1
 
 # Reading train data, subject and lables
 
-subject_train <- read.table("./train/subject_train.txt")
+subject_train <- read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/subject_train.txt")
 dim(subject_train)
 # 7352 X 1
-X_train <- read.table("./train/X_train.txt")
+X_train <- read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/X_train.txt")
 dim(X_train)
 # 7532 X 561
-y_train <- read.table("./train/y_train.txt")
+y_train <- read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/y_train.txt")
 dim(y_train)
 # 7352 X 1
 
@@ -28,7 +27,7 @@ names(subject_train) <- "subject"
 names(subject_test) <- "subject"
 
 # add column names for measurement files
-featureNames <- read.table("./features.txt")
+featureNames <- read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/features.txt")
 names(X_train) <- featureNames$V2
 names(X_test) <- featureNames$V2
 

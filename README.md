@@ -24,9 +24,7 @@ Structure of the working directory now should look like:
         features_info.txt (file)
         README.txt (file)
 
-Final step in running analysis:
-
-Source the script run_analysis.R using code: source("run_analysis.R")
+4. Source the script run_analysis.R using code: source("run_analysis.R")
 
 
 How script works:

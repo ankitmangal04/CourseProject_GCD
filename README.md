@@ -14,16 +14,16 @@ Running analysis:
 3. Download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, unzip it and copy the contents of the folder "UCI HAR Dataset" in the working directory.
 
 
-Structure of the working directory now should look like:
+      Structure of the working directory now should look like:
 
-working directory -->
+      working directory -->
 
-1. test (folder)
-2. train (folder)
-3. run_analysis.R (file)
-4. activity_labels.txt (file)
-5. features.txt (file)
-6. features_info.txt (file)
+        1. test (folder)
+        2. train (folder)
+        3. run_analysis.R (file)
+        4. activity_labels.txt (file)
+        5. features.txt (file)
+        6. features_info.txt (file)
 7. README.txt (file)
 
 Final step in running analysis:

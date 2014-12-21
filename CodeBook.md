@@ -1,6 +1,7 @@
-Data sets
+Data sets used:
+subject_test.txt, subject_train.txt, X_test, X_train, y_test, y_train, features.txt
 
-Introduction
+
 The script run_analysis.R performs the 5 steps described in the course project's problem statement.
 
 First, all the similar data is merged using the rbind() function. By similar, we address those files having the same number of columns and referring to the same entities.
